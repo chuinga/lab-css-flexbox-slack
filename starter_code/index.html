@@ -20,9 +20,9 @@
   <!-- NAVBAR -->
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img src="./images/slack-logo.png" alt="Slack logo" class="logo-img"/>
 
-      <ul>
+      <ul id="nav-items">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,7 +38,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="navbar-button">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -61,32 +61,33 @@
 
   <!-- HEADER -->
   <header>
-    <div>
+    <div class="header1">
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span class="slogan">Slack is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="signup-buttons">
+        <button id="signup-email">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button id="signup-google">
+          <img src="./images/logo-google.png" id="google-logo" alt="Google logo"/>
           <span>Sign up with Google</span>
+          <div></div>
         </button>
       </div>
 
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" id="annoying-img"/>
     </div>
   </header>
 
   <main>
-    <section>
+    <section id="section1">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div id="company-logos" >
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -97,7 +98,7 @@
 
     </section>
 
-    <section>
+    <section id="section2">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 

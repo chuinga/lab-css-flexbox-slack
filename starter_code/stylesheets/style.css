@@ -8,3 +8,150 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    background-color: #540B51;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#nav-items {
+    display: none;
+}
+
+nav {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px;
+}
+
+.logo-img {
+    width: 40%
+}
+
+.navbar-button {
+    display: flex;    
+}
+
+.navbar-button button {
+    background: none;
+    border: none;
+}
+
+#annoying-img {
+    width: 100vw;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    /*background-color: aqua;*/
+    color: white;
+    font-size: 3.2rem;
+    text-align: center;    
+    margin: 40px 10px 20px;
+}
+
+.header1 p {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;    
+}
+
+.slogan {
+    color: orange;
+}
+
+#signup-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    margin: 15px;      
+}
+
+#signup-email {
+    text-transform: uppercase;
+    color:#540B51;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 5px;
+    height: 7vh;
+    border: none;
+}
+
+#google-logo {
+    height: 4vh;
+    background-color: white;    
+}
+
+#signup-google {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #4285F4;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 5px;
+    height: 7vh;
+    border: none;
+    padding-right: 2.7em;
+}
+
+#section1 {
+    background-color: #F3EAE2;    
+}
+
+#section1 p {    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5%;
+    
+}
+
+#company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5%; 
+}
+
+#company-logos img {
+    height: 2.5rem;    
+    padding: 10px;
+}
+
+#section2 {
+    background-color: white;
+}
+
+/* break point at 768 width 
+@media (min-width: 768px) and (max-width: 1024px) {   
+    
+}
+
+/* break point at 1024 width 
+@media (min-width: 1024px) and (max-width: 1440px) {
+    #nav-items {
+        display: block;
+    }
+}
+
+/* break point at 1440 width 
+@media (min-width: 1440px) {
+    #nav-items {
+        display: block;
+    }
+}
